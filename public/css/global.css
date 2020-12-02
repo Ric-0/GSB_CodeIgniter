@@ -1,0 +1,327 @@
+html, body{
+ max-width: 100%;
+}
+
+body {
+    font-family: 'Gupter';
+    background-image: url(../../assets/images/technologie-médecine.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color : black;
+
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+header {
+    height: 100vh;
+}
+
+main {
+    background-image: url("../../assets/images/technologie-médecine.jpg");
+    height: 230vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+h1 {
+    color: #123e6a;
+    text-align: center;
+    margin-top: 120px;
+    font-family: 'Sanchez';
+}
+
+
+.collapse,
+.nav-item,
+.navbar-brand {
+    margin: 0 20px;
+    color: #ffffff;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url("../../assets/images/burger.png");
+}
+
+a {
+    color: #fff;
+    outline: none;
+}
+nav a {
+    color: #123e6a;
+    outline: none;
+}
+nav a:hover {
+    color: #66a4d3;
+}
+
+a img {
+    outline: none;
+}
+
+img {
+    border: 0;
+}
+
+a:hover {
+    color: inherit;
+}
+
+h4 {
+    color: #66a4d3;
+    text-align: center;
+    margin-top: 20px;
+}
+
+header p{
+    color: #123e6a;
+    margin-top: 120px;
+    margin-right: 520px;
+}
+
+.button {
+    border-radius: 50px;
+    background-color: transparent;
+    border: solid;
+    color: #66a4d3;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.button a {
+    color: #66a4d3;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.navbar {
+    transition: all 0.2s ease-out;
+}
+
+.navbar.scrolled {
+    background: #fff;
+}
+
+div figure:first-child {
+    padding-left: 150px;
+}
+
+div figure:nth-child(2) {
+    padding-top: 30px;
+    padding-left: 300px;
+
+}
+
+
+.primary_div {
+    margin-bottom: 50vh;
+    margin-left:1px;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 50vh;
+    width:100%;
+}
+
+footer {
+    background-color: #fff;
+}
+
+
+.left_div h2 {
+    font-size: 48px;
+    color: #123e6a;
+    padding-top: 75px;
+    text-align: right;
+}
+
+.left_div p {
+    font-size: 24px;
+    color: #000000;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.left_div figure {
+    padding-left: 100px;
+}
+
+
+.right_div p {
+    font-size: 24px;
+    color: #000000;
+    padding: 20px 0 0 125px;
+}
+
+
+.right_div h2 {
+    font-size: 48px;
+    padding-top:50px;
+    padding-left:120px;
+    color: #123e6a;
+}
+
+figure img:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.03);
+}
+
+figure img {
+    transition-duration: 0.5s;
+    transform: scale(0.97);
+}
+
+header a:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.03);
+}
+
+header a {
+    transition-duration: 0.5s;
+    transform: scale(0.97);
+}
+
+footer div {
+    color: #66a4d3;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -157px;
+    visibility: hidden;
+}
+
+
+[aos="fade"] {
+    opacity: 0;
+    transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    main{
+        overflow:hidden !important;
+        height:400vh;
+    }
+
+    h1, .headingTxt{
+        padding-top: 50px;
+        text-align: center;
+        text-decoration:
+    }
+
+    .right_div, .left_div{
+        text-align:center;
+        justify-content: center;
+        height:150vh;
+    }
+
+    .headerButton{
+        margin-left:60px;
+    }
+
+    main p, main h2{
+        padding: 10px !important;
+    }
+
+    main h2{
+        padding-top:75px !important;
+    }
+
+    main p{
+        font-size:1.3em !important;
+        padding-top: 50px !important;
+    }
+
+    main img{
+        height:300px;
+        padding-left: 0px !important;
+    }
+
+    .mobileText{
+        display:none;
+    }
+
+    .left_div figure{
+        padding-left:0px !important;
+    }
+
+    .left_div p, .left_div h2{
+        padding:10px !important;
+        text-align:center ;
+    }
+
+    footer {
+        height: 23vh;
+    }
+
+    footer p{
+        padding: 10px 10px 0 10px !important;
+    }
+
+    div figure {
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-bottom: 5px;
+    }
+
+    div figure:first-child {
+        padding-left: 0px;
+    }
+
+    header p {
+        display: none;
+    }
+
+    .navbar {
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 1640px) {
+    .headingTxt {
+        margin-right: 400px;
+    }
+    
+}

@@ -1,0 +1,185 @@
+html, body{
+ max-width: 100%;
+}
+
+body {
+    font-family: 'Gupter';
+    background-image: url(../../assets/images/technologie-médecine.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color : black;
+
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar.scrolled {
+    background: #fff;
+}
+
+header {
+    height: 30vh;
+}
+
+main {
+    background-image: url("../../assets/images/technologie-médecine.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+h1 {
+    color: #123e6a;
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Sanchez';
+}
+
+
+.collapse,
+.nav-item,
+.navbar-brand {
+    margin: 0 20px;
+    color: #123e6a;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url("../../assets/images/burger.png");
+}
+
+a {
+    color: #fff;
+    outline: none;
+}
+nav a {
+    color: #123e6a;
+    outline: none;
+}
+nav a:hover {
+    color: #66a4d3;
+}
+
+a img {
+    outline: none;
+}
+
+img {
+    border: 0;
+}
+
+a:hover {
+    color: inherit;
+}
+
+
+.big_div{
+    border-style: solid ;
+    border-width: 20px;
+    border-color: #fff;
+    background-color: rgba(255,255,255,0.95);
+    border-radius: 15px;
+    margin-bottom: 25vh;
+}
+
+
+h4{
+    color:#fff;
+    text-align: center;
+    font-size:2em;
+    margin-top: 20px;
+}
+
+footer div {
+    color: #66a4d3;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer {
+    background-color: #fff;
+    width: 100%;
+}
+
+.card {
+    background-color: #66a4d3;
+}
+
+.card-body {
+    background-color: #66a4d3;
+    color: #000;
+}
+
+.card-div {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+div p {
+    margin: 5px;
+}
+
+.info p {
+    margin-left: 150px;
+}
+
+article {
+    margin-bottom: 15px;
+}
+
+article:last-child {
+    margin-bottom: 0px;
+}
+
+.btn {
+    background-color: #123e6a;
+    color: #fff;
+    width: 90px;
+}
+
+.btn:active {
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar{
+        background-color: #fff !important;
+    }
+
+    .child_div{
+        justify-content: center;
+        width: 300px !important;
+    }
+
+    .child_div h2, .child_div p{
+        text-align:center;
+    }
+
+    .child_div:nth-child(2){
+        margin-top:100px;
+        margin-left:0px !important;
+    }
+
+
+    footer p{
+        padding: 0 10px !important;
+    }
+
+    .info p {
+        margin-left: 5px;
+    }
+
+    .card-body {
+        padding: 1.25rem 0 0 0;
+    }
+
+    .card-div {
+        margin: 15px;
+    }
+}

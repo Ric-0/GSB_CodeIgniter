@@ -1,0 +1,193 @@
+html, body{
+ max-width: 100%;
+}
+
+body {
+    font-family: 'Gupter';
+    background-image: url(../../assets/images/technologie-médecine.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color : black;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar.scrolled {
+    background: #fff;
+}
+
+header {
+    height: 30.5vh;
+}
+
+h1 {
+    color: #123e6a;
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Sanchez';
+}
+
+
+.collapse,
+.nav-item,
+.navbar-brand {
+    margin: 0 20px;
+    color: #ffffff;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url("../../assets/images/burger.png");
+}
+
+a {
+    color: #fff;
+    outline: none;
+}
+nav a {
+    color: #123e6a;
+    outline: none;
+}
+nav a:hover {
+    color: #66a4d3;
+}
+
+a img {
+    outline: none;
+}
+
+img {
+    border: 0;
+}
+
+a:hover {
+    color: inherit;
+}
+
+footer div {
+    color: #66a4d3;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer {
+    background-color: #fff;
+    width: 100%;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -157px;
+    visibility: hidden;
+}
+
+.big_div{
+    border-style: solid ;
+    border-width: 20px;
+    border-color: #fff;
+    background-color: rgba(255,255,255,0.95);
+    border-radius: 15px;
+    margin-bottom: 25vh;
+}
+
+.card {
+    background-color: #66a4d3;
+}
+
+.card-body {
+    background-color: #66a4d3;
+    color: #000;
+}
+
+.card-div {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+article {
+    padding: 15px;
+}
+
+.texte {
+    display: table;
+}
+
+.texte label {
+    vertical-align: middle;
+    display: table-cell;
+    margin-bottom: 15px;
+}
+
+label:first-child {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.btn-test {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 450px;
+}
+
+/* Add a hover effect for buttons */
+.btn-test:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  background-color: #f44336;
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.zonebtn {
+    display: inline;
+    padding: 0;
+}
+
+.container {
+    padding-left: 0px !important;
+}
+
+input {
+  width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+  .btn-test {
+    width: 100%;
+    margin: 8px;
+    padding: 8px;
+  }
+
+  .big_div {
+      padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        background-color: #fff;
+    }    
+
+}

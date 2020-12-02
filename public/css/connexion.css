@@ -1,0 +1,172 @@
+html, body{
+ max-width: 100%;
+}
+
+body {
+    font-family: 'Gupter';
+    background-image: url(../../assets/images/technologie-médecine.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color : black;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar.scrolled {
+    background: #fff;
+}
+
+h1 {
+    color: #123e6a;
+    text-align: center;
+    margin-top: 120px;
+    font-family: 'Sanchez';
+}
+
+
+.collapse,
+.nav-item,
+.navbar-brand {
+    margin: 0 20px;
+    color: #ffffff;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url("../../assets/images/burger.png");
+}
+
+a {
+    color: #fff;
+    outline: none;
+}
+nav a {
+    color: #123e6a;
+    outline: none;
+}
+nav a:hover {
+    color: #66a4d3;
+}
+
+a img {
+    outline: none;
+}
+
+img {
+    border: 0;
+}
+
+a:hover {
+    color: inherit;
+}
+
+footer {
+    background-color: #fff;
+}
+
+footer div {
+    color: #66a4d3;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -157px;
+    visibility: hidden;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  padding-top: 250px;
+  padding-bottom: 263px;
+
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+.connexionbtn {
+    margin-left: 50px;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  margin-right: 50px;
+  background-color: #f44336;
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+.test {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.zonebtn {
+    display: inline;
+}
+
+@media screen and (max-width: 1440px) {
+  .cancelbtn,
+  .connexionbtn {
+    width: 100%;
+    margin: 8px;
+    padding: 8px;
+  }
+
+  .test {
+      padding-bottom: 75px;
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 992px) {
+    footer {
+        height: 23vh;
+    }
+
+    footer p{
+        padding: 10px 10px 0 10px !important;
+    }
+
+
+    .navbar {
+      background-color: #fff;
+    }
+}
